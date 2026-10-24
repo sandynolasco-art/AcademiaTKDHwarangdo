@@ -1,0 +1,145 @@
+SEO STRUCTURE · ACADEMIA HWARANGDO
+Flujo A: optimización de página (landing única)
+Fecha: 23-10-2026
+Dominio usado en el código: https://academia-hwarangdo.vercel.app
+(Si el dominio final es otro, buscar y reemplazar esa URL en index.html, sitemap.xml y robots.txt)
+
+==================================================
+1. OBJETIVO
+==================================================
+Que la academia aparezca cuando alguien en Santa Cruz de la Sierra o en Bolivia
+busque taekwondo, artes marciales o clases para niños, en Google, Google Maps,
+Instagram y TikTok.
+
+Intención principal: local y transaccional ("taekwondo cerca de mí", "clases de
+taekwondo para niños Santa Cruz", "cuánto cuesta taekwondo Santa Cruz").
+
+==================================================
+2. PALABRAS CLAVE
+==================================================
+Principal
+- taekwondo Santa Cruz de la Sierra
+
+Secundarias
+- taekwondo Santa Cruz
+- taekwondo Bolivia
+- clases de taekwondo para niños Santa Cruz
+- academia de taekwondo Santa Cruz
+- artes marciales para niños Santa Cruz
+- taekwondo alto rendimiento Bolivia
+
+Marca
+- Academia Hwarangdo
+- Hwarangdo Jóvenes Guerreros
+- Aldrin Añez taekwondo
+- María Celeste Añez
+
+==================================================
+3. ESTRUCTURA DE LA PÁGINA (orden de encabezados)
+==================================================
+H1  Entrena tu cuerpo, forja tu carácter
+    Subtítulo: Taekwondo infantil, juvenil y adulto en Santa Cruz de la Sierra, Bolivia.
+H2  Así se entrena en Hwarangdo (videos)
+H2  Lo que formamos además del cuerpo (5 principios)
+H2  Entrenamiento que se adapta a tu nivel (programas)
+H2  El taekwondo se aprende con quien lo vive (profesores)
+H2  Encuentra tu horario ideal (horarios y precios)
+H2  Academia Hwarangdo, Santa Cruz, Bolivia (ubicación)
+H2  Tienes preguntas. Tenemos respuestas. (FAQ)
+H2  Tu primer paso empieza hoy (CTA final)
+
+Nota: el H1 es emocional. La keyword local va en el title, la description,
+el subtítulo del hero, la sección de ubicación y el schema.
+
+==================================================
+4. METADATOS (ya incluidos en index.html)
+==================================================
+Title (66 caracteres)
+Taekwondo en Santa Cruz de la Sierra, Bolivia | Academia Hwarangdo
+
+Meta description (150 caracteres)
+Academia de taekwondo para niños, jóvenes y adultos en Santa Cruz de la Sierra,
+Bolivia. Entrenadores de la Selección Boliviana. Clase de prueba Bs 30.
+
+Idioma: lang="es-BO", hreflang es-BO
+Geo: geo.region BO-S, geo.placename Santa Cruz de la Sierra
+Coordenadas (desde el Plus Code 6V27+PG): -17.79819, -63.13619
+Open Graph y Twitter Card: título, descripción e imagen juvenil-adulto.jpg
+
+==================================================
+5. SCHEMA (JSON-LD, ya incluido)
+==================================================
+- SportsActivityLocation + LocalBusiness: nombre, dirección, coordenadas,
+  teléfono, horarios, precios, redes (sameAs), profesores
+- WebSite
+- FAQPage con 5 preguntas
+
+No se incluyó la calificación 4.6 en el schema: Google no muestra estrellas
+de reseñas propias de un negocio en su propia web y puede considerarlo spam.
+La calificación sí se muestra como texto visible en la sección Ubicación.
+
+==================================================
+6. ARCHIVOS ENTREGADOS
+==================================================
+index.html        página completa con SEO local
+sitemap.xml       mapa del sitio con las 3 imágenes de programas
+robots.txt        permite rastreo y apunta al sitemap
+seo-structure-hwarangdo.txt  este documento
+
+Los 4 van en la raíz del repo, junto a la carpeta assets.
+
+==================================================
+7. GOOGLE BUSINESS PROFILE (lo que más pesa en Maps)
+==================================================
+1. Reclamar el negocio (hoy aparece "Reclamar este negocio").
+2. Categoría principal: Escuela de taekwondo. Secundaria: Escuela de artes marciales.
+3. Nombre exacto, igual que en la web: Academia De Taekwondo Hwarangdo.
+4. Horario real (hoy dice que cierra 12 a.m., es incorrecto).
+5. Sitio web: la URL final de Vercel.
+6. Teléfono: +591 75518142.
+7. Subir mínimo 10 fotos reales (clases, exámenes, fachada).
+8. Pedir reseñas a los padres con el enlace directo de reseña.
+9. Responder todas las reseñas mencionando "taekwondo en Santa Cruz".
+10. Publicar una novedad cada semana (torneos, exámenes, cupos).
+
+==================================================
+8. INSTAGRAM (@academia_hwarangdo)
+==================================================
+- Campo Nombre (es buscable): "Taekwondo Santa Cruz | Hwarangdo"
+- Bio: Taekwondo para niños, jóvenes y adultos
+       Santa Cruz de la Sierra, Bolivia
+       Clase de prueba Bs 30 ↓
+- Enlace: la web.
+- Activar cuenta de empresa con categoría "Escuela de artes marciales"
+  y dirección pública (sale el mapa en el perfil).
+- Etiquetar ubicación "Santa Cruz de la Sierra" en cada post y reel.
+- Escribir la ciudad en el texto del post y en el texto sobre el video:
+  Instagram ya busca por palabras, no solo por hashtags.
+- Hashtags (3 a 5): #taekwondosantacruz #taekwondobolivia
+  #santacruzdelasierra #artesmarcialesbolivia #hwarangdo
+- Destacadas: Horarios, Precios, Ubicación, Torneos.
+
+==================================================
+9. TIKTOK (@academia_hwarangdo)
+==================================================
+- Nombre: "Taekwondo Santa Cruz Hwarangdo"
+- Bio: Taekwondo en Santa Cruz de la Sierra, Bolivia + enlace web.
+- Decir en voz alta en los primeros segundos "taekwondo en Santa Cruz":
+  TikTok transcribe el audio y lo usa en búsqueda.
+- Texto en pantalla y descripción con "taekwondo Santa Cruz Bolivia".
+- Agregar ubicación en cada video.
+- Hashtags: #taekwondo #santacruzbolivia #taekwondobolivia #bolivia
+
+==================================================
+10. CHECKLIST DE IMPLEMENTACIÓN
+==================================================
+[ ] Subir index.html, sitemap.xml y robots.txt a la raíz del repo
+[ ] Confirmar dominio final y reemplazar la URL si cambió
+[ ] Subir assets/celeste.mp4 y los videos 1 a 7
+[ ] Abrir https://DOMINIO/sitemap.xml y https://DOMINIO/robots.txt para verificar
+[ ] Crear propiedad en Google Search Console y enviar el sitemap
+[ ] Validar el schema en https://search.google.com/test/rich-results
+[ ] Probar la vista previa al compartir en WhatsApp (Open Graph)
+[ ] Reclamar y completar Google Business Profile (sección 7)
+[ ] Actualizar bios de Instagram y TikTok (secciones 8 y 9)
+[ ] En 30 días revisar en Search Console las consultas que traen visitas
