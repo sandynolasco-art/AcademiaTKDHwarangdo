@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://academia-hwarangdo.vercel.app/sitemap.xml
+Sitemap: https://academia-tkd-hwarangdo.vercel.app/sitemap.xml
