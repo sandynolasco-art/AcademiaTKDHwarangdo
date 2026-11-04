@@ -1056,34 +1056,52 @@ footer{background:#050505;border-top:1px solid rgba(255,255,255,.06);padding:60p
   opacity:var(--lo,1)
 }
 #grilla-zoom .gz-label span{display:block;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--verde)}
+#grilla-zoom .gz-grid>div:not(.gz-scaler) img{object-fit:cover;object-position:center 25%}
 #grilla-zoom .gz-label strong{display:block;font-family:'Bebas Neue';font-size:clamp(14px,1.4vw,20px);letter-spacing:2px;color:#0a0a0a}
 </style>
 <div class="gz-pin">
   <div class="gz-grid" id="gzGrid">
     <!-- capa 1: columnas extremas -->
-    <div class="gz-l1" style="transform:scale(0);opacity:0"><img src="https://images.unsplash.com/photo-1656653121475-e33829581294?w=400&q=70&auto=format&fit=crop" alt="Atleta ajustando su cinturón negro" loading="lazy"></div>
-    <div class="gz-l1" style="transform:scale(0);opacity:0"><img src="https://images.unsplash.com/photo-1555597673-b21d5c935865?w=400&q=70&auto=format&fit=crop" alt="Niño practicando técnica al atardecer" loading="lazy"></div>
-    <div class="gz-l1" style="transform:scale(0);opacity:0"><img src="https://images.unsplash.com/photo-1514050566906-8d077bae7046?w=400&q=70&auto=format&fit=crop" alt="Patada en el gimnasio" loading="lazy"></div>
-    <div class="gz-l1" style="transform:scale(0);opacity:0"><img src="https://images.unsplash.com/photo-1656653121526-a1458317b790?w=400&q=70&auto=format&fit=crop" alt="Saludo con las manos juntas" loading="lazy"></div>
-    <div class="gz-l1" style="transform:scale(0);opacity:0"><img src="https://images.unsplash.com/photo-1555597408-26bc8e548a46?w=400&q=70&auto=format&fit=crop" alt="Alumnos con uniforme de artes marciales" loading="lazy"></div>
-    <div class="gz-l1" style="transform:scale(0);opacity:0"><img src="https://images.unsplash.com/photo-1525198104776-f6e8a873f9b7?w=400&q=70&auto=format&fit=crop" alt="Cinturón negro" loading="lazy"></div>
+    <div class="gz-l1" style="transform:scale(0);opacity:0"><img data-gz="assets/1" src="https://images.unsplash.com/photo-1656653121475-e33829581294?w=400&q=70&auto=format&fit=crop" alt="Atleta ajustando su cinturón negro" loading="lazy"></div>
+    <div class="gz-l1" style="transform:scale(0);opacity:0"><img data-gz="assets/2" src="https://images.unsplash.com/photo-1555597673-b21d5c935865?w=400&q=70&auto=format&fit=crop" alt="Niño practicando técnica al atardecer" loading="lazy"></div>
+    <div class="gz-l1" style="transform:scale(0);opacity:0"><img data-gz="assets/3" src="https://images.unsplash.com/photo-1514050566906-8d077bae7046?w=400&q=70&auto=format&fit=crop" alt="Patada en el gimnasio" loading="lazy"></div>
+    <div class="gz-l1" style="transform:scale(0);opacity:0"><img data-gz="assets/4" src="https://images.unsplash.com/photo-1656653121526-a1458317b790?w=400&q=70&auto=format&fit=crop" alt="Saludo con las manos juntas" loading="lazy"></div>
+    <div class="gz-l1" style="transform:scale(0);opacity:0"><img data-gz="assets/5" src="https://images.unsplash.com/photo-1555597408-26bc8e548a46?w=400&q=70&auto=format&fit=crop" alt="Alumnos con uniforme de artes marciales" loading="lazy"></div>
+    <div class="gz-l1" style="transform:scale(0);opacity:0"><img data-gz="assets/6" src="https://images.unsplash.com/photo-1525198104776-f6e8a873f9b7?w=400&q=70&auto=format&fit=crop" alt="Cinturón negro" loading="lazy"></div>
     <!-- capa 2: columnas intermedias -->
-    <div class="gz-l2" style="transform:scale(0);opacity:0"><img src="https://images.unsplash.com/photo-1598300606161-4019d0dfec28?w=400&q=70&auto=format&fit=crop" alt="Competidores en el tatami" loading="lazy"></div>
-    <div class="gz-l2" style="transform:scale(0);opacity:0"><img src="https://images.unsplash.com/photo-1476525223214-c31ff100e1ae?w=400&q=70&auto=format&fit=crop" alt="Silueta de una patada en el aire" loading="lazy"></div>
-    <div class="gz-l2" style="transform:scale(0);opacity:0"><img src="https://images.unsplash.com/photo-1529630218527-7df22fc2d4ee?w=400&q=70&auto=format&fit=crop" alt="Dos atletas entrenando al aire libre" loading="lazy"></div>
-    <div class="gz-l2" style="transform:scale(0);opacity:0"><img src="https://images.unsplash.com/photo-1529566193698-bc394165d541?w=400&q=70&auto=format&fit=crop" alt="Grupo de alumnos sentados en el dojang" loading="lazy"></div>
-    <div class="gz-l2" style="transform:scale(0);opacity:0"><img src="https://images.unsplash.com/photo-1656653424873-8491cd7bf5f8?w=400&q=70&auto=format&fit=crop" alt="Atleta con uniforme" loading="lazy"></div>
-    <div class="gz-l2" style="transform:scale(0);opacity:0"><img src="https://images.unsplash.com/photo-1530560643359-6d2fead989b3?w=400&q=70&auto=format&fit=crop" alt="Niña con uniforme sobre el tatami" loading="lazy"></div>
+    <div class="gz-l2" style="transform:scale(0);opacity:0"><img data-gz="assets/15" src="https://images.unsplash.com/photo-1564415315949-7a0c4c73aab4?w=600&q=75&auto=format&fit=crop" alt="Combate en el tatami" loading="lazy"></div>
+    <div class="gz-l2" style="transform:scale(0);opacity:0"><img data-gz="assets/8" src="https://images.unsplash.com/photo-1476525223214-c31ff100e1ae?w=400&q=70&auto=format&fit=crop" alt="Silueta de una patada en el aire" loading="lazy"></div>
+    <div class="gz-l2" style="transform:scale(0);opacity:0"><img data-gz="assets/9" src="https://images.unsplash.com/photo-1529630218527-7df22fc2d4ee?w=400&q=70&auto=format&fit=crop" alt="Dos atletas entrenando al aire libre" loading="lazy"></div>
+    <div class="gz-l2" style="transform:scale(0);opacity:0"><img data-gz="assets/10" src="https://images.unsplash.com/photo-1529566193698-bc394165d541?w=400&q=70&auto=format&fit=crop" alt="Grupo de alumnos sentados en el dojang" loading="lazy"></div>
+    <div class="gz-l2" style="transform:scale(0);opacity:0"><img data-gz="assets/11" src="https://images.unsplash.com/photo-1656653424873-8491cd7bf5f8?w=400&q=70&auto=format&fit=crop" alt="Atleta con uniforme" loading="lazy"></div>
+    <div class="gz-l2" style="transform:scale(0);opacity:0"><img data-gz="assets/12" src="https://images.unsplash.com/photo-1530560643359-6d2fead989b3?w=400&q=70&auto=format&fit=crop" alt="Niña con uniforme sobre el tatami" loading="lazy"></div>
     <!-- capa 3: arriba y abajo del centro -->
-    <div class="gz-l3" style="transform:scale(0);opacity:0"><img src="https://images.unsplash.com/photo-1696690184741-7c441ca00fa1?w=400&q=70&auto=format&fit=crop" alt="Exhibición en escenario" loading="lazy"></div>
-    <div class="gz-l3" style="transform:scale(0);opacity:0"><img src="https://images.unsplash.com/photo-1529651228087-f0f728ea871e?w=400&q=70&auto=format&fit=crop" alt="Atleta en posición de guardia" loading="lazy"></div>
+    <div class="gz-l3" style="transform:scale(0);opacity:0"><img data-gz="assets/13" src="https://images.unsplash.com/photo-1696690184741-7c441ca00fa1?w=400&q=70&auto=format&fit=crop" alt="Exhibición en escenario" loading="lazy"></div>
+    <div class="gz-l3" style="transform:scale(0);opacity:0"><img data-gz="assets/14" src="https://images.unsplash.com/photo-1529651228087-f0f728ea871e?w=400&q=70&auto=format&fit=crop" alt="Atleta en posición de guardia" loading="lazy"></div>
     <!-- foto central -->
     <div class="gz-scaler" id="gzScaler">
-      <img src="https://images.unsplash.com/photo-1564415315949-7a0c4c73aab4?w=1600&q=80&auto=format&fit=crop" alt="Dos atletas en combate de taekwondo" id="gzScalerImg">
+      <img data-gz="assets/7" src="https://images.unsplash.com/photo-1598300606161-4019d0dfec28?w=1600&q=80&auto=format&fit=crop" alt="Dos atletas en combate de taekwondo" id="gzScalerImg">
       <div class="gz-label" id="gzLabel"><span>Academia Hwarangdo</span><strong>Jóvenes Guerreros</strong></div>
     </div>
   </div>
 </div>
+<script>
+/* Grilla: carga assets/1..15 y si no existe vuelve a la foto original */
+(function(){
+  var EXT=['jpg','jpeg','png','webp'];
+  document.querySelectorAll('#gzGrid img[data-gz]').forEach(function(img){
+    var base=img.dataset.gz, original=img.src, i=0;
+    function next(){
+      if(i>=EXT.length){img.src=original;return}
+      var t=new Image(), url=base+'.'+EXT[i++];
+      t.onload=function(){img.src=url};
+      t.onerror=next;
+      t.src=url;
+    }
+    next();
+  });
+})();
+</script>
 <script>
 (function(){
   var zoom=document.getElementById('grilla-zoom');
